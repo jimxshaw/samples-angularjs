@@ -6,10 +6,27 @@ var app = angular.module('computer', ['ngRoute'])
       templateUrl: 'main.html',
       controller: 'MainCtrl'
     }).
+    when('/about', {
+      templateUrl: 'about.html',
+      controller: 'MainCtrl'
+    }).
+    when('/services', {
+      templateUrl: 'services.html',
+      controller: 'ServicesCtrl'
+    }).
+    when('/contact', {
+      templateUrl: 'contact.html',
+      controller: 'ContactCtrl'
+    }).
     otherwise({redirectTo: '/main'});
 }])
 
 .controller('MainCtrl', ['$scope', function($scope) {
-  $scope.person = 'James Smith';
-  console.log($scope);
+
+}])
+.controller('ServicesCtrl', ['$scope', function($scope) {
+
+}])
+.controller('ContactCtrl', ['$scope', function($scope) {
+
 }]);
