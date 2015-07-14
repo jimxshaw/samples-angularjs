@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Software Development",
+    "description": "Mauris sagittis nec ante at tincidunt. In non tincidunt lacus. Morbi ut orci eget lorem interdum convallis.",
+    "image": "Products.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Database Maintenance",
+    "description": "Sed vestibulum ante sed laoreet aliquam. Quisque vel urna consectetur, tincidunt purus et, convallis mi.",
+    "image": "Products.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Business Analytics",
+    "description": "Maecenas sed sapien non lectus vulputate tempor id vitae tortor. Curabitur sit amet vestibulum erat.",
+    "image": "Products.jpg"
+  }
+]

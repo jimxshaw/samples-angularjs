@@ -24,8 +24,10 @@ var app = angular.module('computer', ['ngRoute'])
 .controller('MainCtrl', ['$scope', function($scope) {
 
 }])
-.controller('ServicesCtrl', ['$scope', function($scope) {
-
+.controller('ServicesCtrl', ['$scope', '$http', function($scope, $http) {
+  $http.get('services.json').then(function(response) {
+    $scope.services = response.data;
+  });
 }])
 .controller('ContactCtrl', ['$scope', function($scope) {
 
