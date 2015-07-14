@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Corporate Headquarters",
+    "street_address": "123 Park Avenue",
+    "city": "New York",
+    "state": "NY",
+    "phone": "555-555-5555"
+  },
+  {
+    "id": 2,
+    "name": "West Coast",
+    "street_address": "777 Main Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "phone": "555-555-5555"
+  },
+  {
+    "id": 3,
+    "name": "Mid West",
+    "street_address": "111 First Street",
+    "city": "Dallas",
+    "state": "TX",
+    "phone": "555-555-5555"
+  }
+]

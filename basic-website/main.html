@@ -13,16 +13,10 @@
 
 <!-- Example row of columns -->
 <div class="row">
-  <div class="col-lg-4">
-    <h2>Software Development</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. </p>
-  </div>
-  <div class="col-lg-4">
-    <h2>Database Maintenance</h2>
-    <p>Etiam ac elementum sapien. Duis vestibulum ullamcorper mollis. Nunc maximus vel nunc nec imperdiet. Praesent massa ante, lobortis ac vestibulum volutpat, sollicitudin ac dolor. Aenean varius risus lorem.</p>
- </div>
-  <div class="col-lg-4">
-    <h2>Business Analytics</h2>
-    <p>Quisque eu leo nec mi porttitor elementum. Integer eu vehicula nulla, at lobortis diam. Vivamus facilisis at massa pharetra cursus. Pellentesque turpis elit, commodo vitae ante nec, vulputate blandit dui.</p>
+  <div ng-repeat="service in services">
+    <div class="col-lg-4">
+      <h2>{{service.name}}</h2>
+      <p>{{service.description}}</p>
+    </div>
   </div>
 </div>
