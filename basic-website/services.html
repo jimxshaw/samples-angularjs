@@ -2,7 +2,7 @@
 <div ng-repeat="service in services">
   <div class="row service">
     <div class="col-md-2">
-      <img src="http://www.essonline.in/ess/sites/default/files/Products.jpg">
+      <img ng-src="http://www.essonline.in/ess/sites/default/files/{{service.image}}">
     </div>
     <div class="col-md-10">
       <h3>{{service.name}}</h3>
