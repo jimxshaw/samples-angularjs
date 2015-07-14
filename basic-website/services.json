@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "Software Development",
-    "description": "Mauris sagittis nec ante at tincidunt. In non tincidunt lacus. Morbi ut orci eget lorem interdum convallis.",
+    "description": "Mauris sagittis nec ante at tincidunt. In non tincidunt lacus. Morbi ut orci eget lorem interdum convallis. Suspendisse id aliquet urna. Maecenas ultricies aliquet purus, pulvinar sodales nisl congue vel.",
     "image": "Products.jpg"
   },
   {
     "id": 2,
     "name": "Database Maintenance",
-    "description": "Sed vestibulum ante sed laoreet aliquam. Quisque vel urna consectetur, tincidunt purus et, convallis mi.",
+    "description": "Sed vestibulum ante sed laoreet aliquam. Quisque vel urna consectetur, tincidunt purus et, convallis mi. Duis auctor, augue id semper tempor, massa diam tempus dolor, placerat efficitur nisi turpis vitae justo.",
     "image": "Products.jpg"
   },
   {
     "id": 3,
     "name": "Business Analytics",
-    "description": "Maecenas sed sapien non lectus vulputate tempor id vitae tortor. Curabitur sit amet vestibulum erat.",
+    "description": "Maecenas sed sapien non lectus vulputate tempor id vitae tortor. Curabitur sit amet vestibulum erat. Proin sollicitudin egestas enim, et venenatis erat elementum vel. Morbi ultrices arcu non metus placerat iaculis.",
     "image": "Products.jpg"
   }
 ]

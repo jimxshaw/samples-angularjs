@@ -1,33 +1,13 @@
 <h2>Services</h2>
-<div class="row service">
-  <div class="col-md-2">
-    <img src="http://www.essonline.in/ess/sites/default/files/Products.jpg">
-  </div>
-  <div class="col-md-10">
-    <h3>Software Development</h3>
-    <p>Nulla quis volutpat augue. Aenean sit amet tortor a erat luctus commodo vel eget tellus. Donec porta eu eros eget sodales. Aenean malesuada bibendum nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rhoncus venenatis turpis.</p>
-    <a href="contact.html" class="btn btn-primary">Contact Us</a>
-  </div>
-</div>
-
-<div class="row service">
-  <div class="col-md-2">
-    <img src="http://www.essonline.in/ess/sites/default/files/Products.jpg">
-  </div>
-  <div class="col-md-10">
-    <h3>Database Maintenance</h3>
-    <p>Nam vel fermentum justo, quis luctus tellus. Cras turpis felis, pulvinar ac odio vel, porttitor luctus elit. Nam quis vestibulum mauris, nec sodales turpis. Sed vestibulum nunc nec dolor eleifend, in hendrerit nulla ultricies. Etiam ac nisl at magna varius vehicula. Morbi venenatis ultrices libero ac convallis.</p>
-    <a href="contact.html" class="btn btn-primary">Contact Us</a>
-  </div>
-</div>
-
-<div class="row service">
-  <div class="col-md-2">
-    <img src="http://www.essonline.in/ess/sites/default/files/Products.jpg">
-  </div>
-  <div class="col-md-10">
-    <h3>Business Analytics</h3>
-    <p>Quisque quis luctus mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum efficitur condimentum. Nullam eget lacinia nulla. Pellentesque luctus tincidunt leo, sit amet vestibulum orci commodo et. Integer eget magna venenatis, gravida erat sit amet, pharetra libero. Donec tincidunt erat dapibus, porttitor quam ut, auctor ligula. Sed id elit et lorem varius pharetra ac quis felis.</p>
-    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+<div ng-repeat="service in services">
+  <div class="row service">
+    <div class="col-md-2">
+      <img src="http://www.essonline.in/ess/sites/default/files/Products.jpg">
+    </div>
+    <div class="col-md-10">
+      <h3>{{service.name}}</h3>
+      <p>{{service.description}}</p>
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </div>
   </div>
 </div>
