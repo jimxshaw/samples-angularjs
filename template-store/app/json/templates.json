@@ -7,19 +7,19 @@
     "price": 9.99,
     "images": [
       {
-        "name": "blue.jpg"
+        "name": "img/blue.jpg"
       },
       {
-        "name": "blue2.jpg"
+        "name": "img/blue2.jpg"
       },
       {
-        "name": "blue3.jpg"
+        "name": "img/blue3.jpg"
       },
       {
-        "name": "blue4.jpg"
+        "name": "img/blue4.jpg"
       },
       {
-        "name": "blue5.jpg"
+        "name": "img/blue5.jpg"
       }
     ]
   },
@@ -31,7 +31,7 @@
     "price": 9.99,
     "images": [
       {
-        "name": "red.jpg"
+        "name": "img/red.jpg"
       }
     ],
     "soldOut":true
@@ -43,7 +43,7 @@
     "price": 12.99,
     "images": [
       {
-        "name": "orange.jpg"
+        "name": "img/orange.jpg"
       }
     ]
   },
@@ -54,7 +54,7 @@
     "price": 12.99,
     "images": [
       {
-        "name": "gray.jpg"
+        "name": "img/gray.jpg"
       }
     ]
   },
@@ -65,7 +65,7 @@
     "price": 9.99,
     "images": [
       {
-        "name": "purple.jpg"
+        "name": "img/purple.jpg"
       }
     ]
   },
@@ -76,7 +76,7 @@
     "available": true,
     "images": [
       {
-        "name": "green.jpg"
+        "name": "img/green.jpg"
       }
     ]
   }
