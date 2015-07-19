@@ -18,6 +18,16 @@ angular.module('templateStore.templates', ['ngRoute'])
   });
 }])
 
-.controller('TemplatesDetailsCtrl', ['$scope', function($scope) {
+.controller('TemplatesDetailsCtrl', ['$scope', '$routeParams', '$http', '$filter', function($scope, $routeParams, $http, $filter) {
+  var templateId = $routeParams.templateId;
+  $http.get('json/templates.json').success(function(data) {
+    $scope.template = $filter('filter')(data, function(d) {
+      return d.id == templateId;
+    })[0];
+    $scope.mainImage = $scope.template.images[0].name;
+  });
 
+  $scope.setImage = function(image) {
+    $scope.mainImage = image.name;
+  };
 }])
