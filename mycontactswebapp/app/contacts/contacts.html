@@ -1,7 +1,8 @@
 <div class="row" ng-contoller="ContactsCtrl">
   <div class="large-10 columns">
+    <div data-alert ng-show="msg" class="alert-box">{{msg}}</div>
 
-    <form ng-show="addFormShow">
+    <form ng-submit="addFormSubmit()" ng-show="addFormShow">
       <h3>Add Contact</h3>
       <!-- Add Form -->
       <div class="row">
@@ -93,7 +94,8 @@
     </table>
   </div><!-- large-10 columns -->
   <div class="small-12 large-2 columns">
-    <a class="button large" ng-click="showAddForm()">+</a>
+    <a class="button large" ng-click="showAddForm()" ng-hide="addFormShow">+</a>
+    <a class="button large" ng-click="hide()" ng-show="addFormShow">-</a>
   </div><!-- small-12 large-2 columns -->
 </div><!-- row -->
 
