@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-var jobsPolicy = require('../policies/articles.server.policy'),
+var jobsPolicy = require('../policies/jobs.server.policy'),
   jobs = require('../controllers/jobs.server.controller');
 
 module.exports = function (app) {
