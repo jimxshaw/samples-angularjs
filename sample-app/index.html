@@ -4,10 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sample Angular App</title>
-  <link rel="stylesheet" href="">
-  <script src="libs/angular.min.js"></script>
-  <script src="app/app.js"></script>
-  <script src="app/book/booksController.js"></script>
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+
 </head>
 <body ng-controller="booksController">
   {{ message }}
@@ -15,5 +13,34 @@
   <div ng-controller="booksController as booksCtrl">
     {{ booksCtrl.greeting }}
   </div>
+
+  <input type="button" ng-click="fetchBooks()" value="Get Books" class="btn btn-success">
+  <div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="book in books">
+          <td>{{ book.ID }}</td>
+          <td>{{ book.Title }}</td>
+          <td>{{ book.Author }}</td>
+          <td>{{ book.ISBN }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <script src="libs/jquery-2.1.4.min.js"></script>
+  <script src="libs/angular.min.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/book/booksController.js"></script>
 </body>
 </html>
