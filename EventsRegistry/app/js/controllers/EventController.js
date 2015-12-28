@@ -7,11 +7,13 @@ eventsApp.controller('EventController',
         // $scope.boolValue = false;
         // $scope.mystyle = {color:'red'};
         // $scope.myclass = "blue";
-        // $scope.buttonDisabled = true; 
+        // $scope.buttonDisabled = true;
+
+        $scope.sortorder = 'name'; 
 
         $scope.event = {
             name: 'AngularJS Meetup',
-            date: 'Jan 01 2015',
+            date: new Date(),
             time: '6:00 pm',
             location: {
                 address: 'Google HQ',
@@ -23,7 +25,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Mastering Directives',
                     creatorName: 'Tyrion Lannister',
-                    duration: '1 hr',
+                    duration: 3,
                     level: 'Advanced',
                     abstract: 'Fusce scelerisque lorem pretium fringilla maximus.',
                     upVoteCount: 0
@@ -31,7 +33,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'What is Scope?',
                     creatorName: 'Jorah Mornmont',
-                    duration: '.5 hr',
+                    duration: 1,
                     level: 'Novice',
                     abstract: 'Morbi ac enim sit amet lacus lobortis ultrices.',
                     upVoteCount: 0
@@ -39,7 +41,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'All about Controllers',
                     creatorName: 'Samwell Tarly',
-                    duration: '1 hr',
+                    duration: 2,
                     level: 'Intermediate',
                     abstract: 'Aenean venenatis luctus massa, ut molestie turpis luctus eget.',
                     upVoteCount: 0
