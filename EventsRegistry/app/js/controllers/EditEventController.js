@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 eventsApp.controller('EditEventController',
   function EditEventController($scope) {
