@@ -1,21 +1,14 @@
 'use strict';
 
 eventsApp.controller('EventController',
-    function EventController($scope, eventData, $log) {
-
-        // $scope.snippet = '<span style="color:red;">Hello there</span>';
-        // $scope.boolValue = false;
-        // $scope.mystyle = {color:'red'};
-        // $scope.myclass = "blue";
-        // $scope.buttonDisabled = true;
+    function EventController($scope, eventData) {
 
         $scope.sortorder = 'name'; 
 
-        eventData.getEvent()
-            .success(function(event) { $scope.event = event; })
-            .error(function(data, status, headers, config) {
-                $log.warn(data, status, headers(), config);
-            });
+        $scope.event = eventData.getEvent()
+            .$promise
+            .then(function(event) { $scope.event = event; console.log(event) }) // on success
+            .catch(function(response) { console.log(response); }); // on failure
 
         $scope.upVoteSession = function(session) {
             session.upVoteCount++;
