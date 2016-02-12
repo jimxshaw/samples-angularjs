@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1) {
+System.register(['angular2/core', "./shopping-list.component"], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8,12 +8,15 @@ System.register(['angular2/core'], function(exports_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, shopping_list_component_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (shopping_list_component_1_1) {
+                shopping_list_component_1 = shopping_list_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -24,12 +27,16 @@ System.register(['angular2/core'], function(exports_1) {
                         // Have a selector of my-app means you can embed this component in 
                         // your html code by using html tags. In this example, the tag would 
                         // be <my-app></my-app> in index.html.
-                        // The template Hello World! is what will be loaded when the component 
+                        // The template is what will be loaded when the component 
                         // gets embedded into the html files.
                         // In order for this component to be "bootable," you have to have what's 
                         // in boot.ts.  
                         selector: 'my-app',
-                        template: 'Hello World!',
+                        template: "\n    \t<shopping-list></shopping-list>\n    ",
+                        // This specifies an array of directives (components are directives) that 
+                        // should be loaded in this particular component so that you can use them 
+                        // in the template of this component.  
+                        directives: [shopping_list_component_1.ShoppingListComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
@@ -40,4 +47,4 @@ System.register(['angular2/core'], function(exports_1) {
     }
 });
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOlsiQXBwQ29tcG9uZW50IiwiQXBwQ29tcG9uZW50LmNvbnN0cnVjdG9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFNQTtnQkFBQUE7Z0JBYUFDLENBQUNBO2dCQWJERDtvQkFBQ0EsZ0JBQVNBLENBQUNBO3dCQUNWQSxtRUFBbUVBO3dCQUNuRUEscUVBQXFFQTt3QkFDckVBLHNDQUFzQ0E7d0JBQ3RDQSx1RUFBdUVBO3dCQUN2RUEscUNBQXFDQTt3QkFDckNBLHlFQUF5RUE7d0JBQ3pFQSxnQkFBZ0JBO3dCQUNiQSxRQUFRQSxFQUFFQSxRQUFRQTt3QkFDbEJBLFFBQVFBLEVBQUVBLGNBQWNBO3FCQUMzQkEsQ0FBQ0E7O2lDQUdEQTtnQkFBREEsbUJBQUNBO1lBQURBLENBYkEsQUFhQ0EsSUFBQTtZQWJELHVDQWFDLENBQUEiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIFRoaXMgaXMgdGhlIHJvb3QgY29tcG9uZW50LiBDb21wb25lbnRzIGFyZSBrZXkgcGFydHMgb2YgYW55IGFuZ3VsYXIgMlxuLy8gYXBwbGljYXRpb24uIFRoZXkncmUgZXNzZW50aWFsbHkgZGlyZWN0aXZlcyB0aGF0IGhhdmUgdmlld3MgYXR0YWNoZWQgdG8gXG4vLyB0aGVtLiBBbnkgYW5ndWxhciAyIGFwcCB3aWxsIHVzdWFsbHkgaGF2ZSBzZXZlcmFsIGNvbXBvbmVudHMgd29ya2luZyBcbi8vIHRvZ2V0aGVyLlxuaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ2FuZ3VsYXIyL2NvcmUnO1xuXG5AQ29tcG9uZW50KHtcblx0Ly8gSGF2ZSBhIHNlbGVjdG9yIG9mIG15LWFwcCBtZWFucyB5b3UgY2FuIGVtYmVkIHRoaXMgY29tcG9uZW50IGluIFxuXHQvLyB5b3VyIGh0bWwgY29kZSBieSB1c2luZyBodG1sIHRhZ3MuIEluIHRoaXMgZXhhbXBsZSwgdGhlIHRhZyB3b3VsZCBcblx0Ly8gYmUgPG15LWFwcD48L215LWFwcD4gaW4gaW5kZXguaHRtbC5cblx0Ly8gVGhlIHRlbXBsYXRlIEhlbGxvIFdvcmxkISBpcyB3aGF0IHdpbGwgYmUgbG9hZGVkIHdoZW4gdGhlIGNvbXBvbmVudCBcblx0Ly8gZ2V0cyBlbWJlZGRlZCBpbnRvIHRoZSBodG1sIGZpbGVzLlxuXHQvLyBJbiBvcmRlciBmb3IgdGhpcyBjb21wb25lbnQgdG8gYmUgXCJib290YWJsZSxcIiB5b3UgaGF2ZSB0byBoYXZlIHdoYXQncyBcblx0Ly8gaW4gYm9vdC50cy4gIFxuICAgIHNlbGVjdG9yOiAnbXktYXBwJyxcbiAgICB0ZW1wbGF0ZTogJ0hlbGxvIFdvcmxkIScsXG59KVxuZXhwb3J0IGNsYXNzIEFwcENvbXBvbmVudCB7XG5cbn0iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOlsiQXBwQ29tcG9uZW50IiwiQXBwQ29tcG9uZW50LmNvbnN0cnVjdG9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFVQTtnQkFBQUE7Z0JBbUJBQyxDQUFDQTtnQkFuQkREO29CQUFDQSxnQkFBU0EsQ0FBQ0E7d0JBQ1ZBLG1FQUFtRUE7d0JBQ25FQSxxRUFBcUVBO3dCQUNyRUEsc0NBQXNDQTt3QkFDdENBLDBEQUEwREE7d0JBQzFEQSxxQ0FBcUNBO3dCQUNyQ0EseUVBQXlFQTt3QkFDekVBLGdCQUFnQkE7d0JBQ2JBLFFBQVFBLEVBQUVBLFFBQVFBO3dCQUNsQkEsUUFBUUEsRUFBRUEsK0NBRVRBO3dCQUNEQSwwRUFBMEVBO3dCQUMxRUEsMEVBQTBFQTt3QkFDMUVBLHVDQUF1Q0E7d0JBQ3ZDQSxVQUFVQSxFQUFFQSxDQUFDQSwrQ0FBcUJBLENBQUNBO3FCQUN0Q0EsQ0FBQ0E7O2lDQUdEQTtnQkFBREEsbUJBQUNBO1lBQURBLENBbkJBLEFBbUJDQSxJQUFBO1lBbkJELHVDQW1CQyxDQUFBIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUaGlzIGlzIHRoZSByb290IGNvbXBvbmVudC4gQ29tcG9uZW50cyBhcmUga2V5IHBhcnRzIG9mIGFueSBhbmd1bGFyIDJcbi8vIGFwcGxpY2F0aW9uLiBUaGV5J3JlIGVzc2VudGlhbGx5IGRpcmVjdGl2ZXMgdGhhdCBoYXZlIHZpZXdzIGF0dGFjaGVkIHRvIFxuLy8gdGhlbS4gQW55IGFuZ3VsYXIgMiBhcHAgd2lsbCB1c3VhbGx5IGhhdmUgc2V2ZXJhbCBjb21wb25lbnRzIHdvcmtpbmcgXG4vLyB0b2dldGhlci5cbi8vIEp1c3QgYXMgeW91IGhhdmUgdG8gdGVsbCB5b3VyIGJvb3RzdHJhcCBjb21wb25lbnQgaW4gYm9vdC50cyB0byBsb2FkIFxuLy8gdGhlIGFwcCBjb21wb25lbnQsIHlvdSBoYXZlIHRvIGxvYWQgdGhlIHNob3BwaW5nIGxpc3QgY29tcG9uZW50IGluIFxuLy8gb3JkZXIgZm9yIHRoZSBhcHAgY29tcG9uZW50IHRvIHVzZSBzaG9wcGluZyBsaXN0LlxuaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ2FuZ3VsYXIyL2NvcmUnO1xuaW1wb3J0IHtTaG9wcGluZ0xpc3RDb21wb25lbnR9IGZyb20gXCIuL3Nob3BwaW5nLWxpc3QuY29tcG9uZW50XCI7XG5cbkBDb21wb25lbnQoe1xuXHQvLyBIYXZlIGEgc2VsZWN0b3Igb2YgbXktYXBwIG1lYW5zIHlvdSBjYW4gZW1iZWQgdGhpcyBjb21wb25lbnQgaW4gXG5cdC8vIHlvdXIgaHRtbCBjb2RlIGJ5IHVzaW5nIGh0bWwgdGFncy4gSW4gdGhpcyBleGFtcGxlLCB0aGUgdGFnIHdvdWxkIFxuXHQvLyBiZSA8bXktYXBwPjwvbXktYXBwPiBpbiBpbmRleC5odG1sLlxuXHQvLyBUaGUgdGVtcGxhdGUgaXMgd2hhdCB3aWxsIGJlIGxvYWRlZCB3aGVuIHRoZSBjb21wb25lbnQgXG5cdC8vIGdldHMgZW1iZWRkZWQgaW50byB0aGUgaHRtbCBmaWxlcy5cblx0Ly8gSW4gb3JkZXIgZm9yIHRoaXMgY29tcG9uZW50IHRvIGJlIFwiYm9vdGFibGUsXCIgeW91IGhhdmUgdG8gaGF2ZSB3aGF0J3MgXG5cdC8vIGluIGJvb3QudHMuICBcbiAgICBzZWxlY3RvcjogJ215LWFwcCcsXG4gICAgdGVtcGxhdGU6IGBcbiAgICBcdDxzaG9wcGluZy1saXN0Pjwvc2hvcHBpbmctbGlzdD5cbiAgICBgLFxuICAgIC8vIFRoaXMgc3BlY2lmaWVzIGFuIGFycmF5IG9mIGRpcmVjdGl2ZXMgKGNvbXBvbmVudHMgYXJlIGRpcmVjdGl2ZXMpIHRoYXQgXG4gICAgLy8gc2hvdWxkIGJlIGxvYWRlZCBpbiB0aGlzIHBhcnRpY3VsYXIgY29tcG9uZW50IHNvIHRoYXQgeW91IGNhbiB1c2UgdGhlbSBcbiAgICAvLyBpbiB0aGUgdGVtcGxhdGUgb2YgdGhpcyBjb21wb25lbnQuICBcbiAgICBkaXJlY3RpdmVzOiBbU2hvcHBpbmdMaXN0Q29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBBcHBDb21wb25lbnQge1xuXG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
