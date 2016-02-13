@@ -13,7 +13,8 @@ import {Component} from "angular2/core";
 	selector: "shopping-list",
 	// Angular structural directives use a * while angular events use (). Structural means 
 	// the directives changes the document in some way.
-	// Local variables are denoted by a #.
+	// Local variables are denoted by a #. Note that #shoppingListItem is used twice but 
+	// that's allowed because the local variables are in different contexts.
 	// Model binding use [] and for two-way binding, use [()].
 	template: `
 		<ul>
@@ -25,6 +26,9 @@ import {Component} from "angular2/core";
 			</li>
 		</ul>
 		<input type="text" [(ngModel)]="selectedItem.name">
+		<button (click)="onDeleteItem()">Delete Item</button><br>
+		<input type="text" #shoppingListItem>
+		<button (click)="onAddItem(shoppingListItem)">Add Item</button>
 	`
 })
 export class ShoppingListComponent {
@@ -37,6 +41,21 @@ export class ShoppingListComponent {
 
 	onItemClicked(shoppingListItem) {
 		this.selectedItem = shoppingListItem;
+		shoppingListItem.value = "";
+	}
+
+	// You cannot simply .push(shoppingListItem) because shoppingListItem is bound 
+	// to the input tag and not the value of the user input. Since, every item in 
+	// the shoppingListItems array is an object, you have to push the entire input object 
+	// and specify its value. 
+	onAddItem(shoppingListItem) {
+		this.shoppingListItems.push({ name: shoppingListItem.value });
+		shoppingListItem.value = "";
+	}
+
+	onDeleteItem() {
+		var item = this.shoppingListItems.indexOf(this.selectedItem);
+		this.shoppingListItems.splice(item, 1);
 	}
 }
 
