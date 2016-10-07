@@ -12,7 +12,7 @@ import 'rxjs/add/operator/map';
 })
 export class AppComponent {
   
-  private feedData: Observable<Submission[]>;
+  feedData: Observable<Submission[]>;
 
   constructor(private jsonp: Jsonp) {
 
