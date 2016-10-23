@@ -48,9 +48,14 @@
                                  [style.margin.px]="imageMargin">
                         </td>
                         <td>{{ product.productName }}</td>
-                        <td>{{ product.productCode }}</td>
+                        <td>{{ product.productCode | lowercase }}</td>
                         <td>{{ product.releaseDate }}</td>
-                        <td>{{ product.price }}</td>
+                        <!--
+                            For price, we want USD, we want the dollar symbol displayed and we want
+                            at least 1 digit left of decimal with 2 digits right of decimal but no
+                            more than 2 digits right of decimal.
+                        -->
+                        <td>{{ product.price | currency:"USD":true:"1.2-2" }}</td>
                         <td>{{ product.starRating }}</td>
                     </tr>
                 </tbody>
