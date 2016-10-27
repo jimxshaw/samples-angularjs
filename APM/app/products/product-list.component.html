@@ -39,7 +39,8 @@
                 </thead>
 
                 <tbody>
-                    <tr *ngFor="let product of products">
+                    <!-- We use our productFilter custom pipe, which we registered as a dependency within app module -->
+                    <tr *ngFor="let product of products | productFilter : listFilter">
                         <td>
                             <img *ngIf="showImage"
                                  [src]="product.imageUrl"
