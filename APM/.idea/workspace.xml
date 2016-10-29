@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="69fbb8f5-53fc-4aa8-ac07-97bcface4929" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-list.component.html" afterPath="$PROJECT_DIR$/app/products/product-list.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.js" afterPath="$PROJECT_DIR$/app/shared/star.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.js.map" afterPath="$PROJECT_DIR$/app/shared/star.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.ts" afterPath="$PROJECT_DIR$/app/shared/star.component.ts" />
     </list>
     <ignored path="APM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +29,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product-list.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product-list.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+              <caret line="60" column="77" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="star.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="star.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -87,9 +99,9 @@
         <option value="$PROJECT_DIR$/app/products/product-list.component.css" />
         <option value="$PROJECT_DIR$/app/products/product-filter.pipe.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/shared/star.component.ts" />
         <option value="$PROJECT_DIR$/app/products/product-list.component.html" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -198,7 +210,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="product-list.compo&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;app.m&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.module.ts&#10;product-list.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;pr&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;produ&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;package.json&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/package.json&#10;index.html&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;css&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/shared/star.component.css&#10;app.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.component.css&#10;index&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;index.&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;sys&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/systemjs.config.js" />
+    <property name="SearchEverywhereHistoryKey" value="product-list&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;product-list.compo&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;app.m&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.module.ts&#10;product-list.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;pr&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;produ&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;package.json&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/package.json&#10;index.html&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;css&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/shared/star.component.css&#10;app.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.component.css&#10;index&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;index.&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;sys&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/systemjs.config.js" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager">
@@ -273,12 +285,12 @@
       <workItem from="1477148377213" duration="4703000" />
       <workItem from="1477232609089" duration="3475000" />
       <workItem from="1477537120484" duration="3105000" />
-      <workItem from="1477709188576" duration="875000" />
+      <workItem from="1477709188576" duration="1221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16112000" />
+    <option name="totallyTimeSpent" value="16458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1519" y="23" width="1040" height="1330" extended-state="0" />
@@ -513,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -530,14 +532,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,10 +545,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="77" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
           <folding />
         </state>
       </provider>
