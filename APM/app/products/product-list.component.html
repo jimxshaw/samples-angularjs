@@ -57,7 +57,9 @@
                             more than 2 digits right of decimal.
                         -->
                         <td>{{ product.price | currency:"USD":true:"1.2-2" }}</td>
-                        <td>{{ product.starRating }}</td>
+                        <td>
+                            <ai-star></ai-star>
+                        </td>
                     </tr>
                 </tbody>
             </table>
