@@ -4,6 +4,18 @@
     <list default="true" id="69fbb8f5-53fc-4aa8-ac07-97bcface4929" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/welcome.component.js" afterPath="$PROJECT_DIR$/app/home/welcome.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-filter.pipe.js" afterPath="$PROJECT_DIR$/app/products/product-filter.pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product-list.component.js" afterPath="$PROJECT_DIR$/app/products/product-list.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product.js" afterPath="$PROJECT_DIR$/app/products/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/products/product.service.js" afterPath="$PROJECT_DIR$/app/products/product.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/star.component.js" afterPath="$PROJECT_DIR$/app/shared/star.component.js" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
     </list>
     <ignored path="APM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +41,7 @@
       <file leaf-file-name="product-list.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
+            <state relative-caret-position="1342">
               <caret line="61" column="89" selection-start-line="61" selection-start-column="89" selection-end-line="61" selection-end-column="89" />
               <folding />
             </state>
@@ -39,7 +51,11 @@
       <file leaf-file-name="product.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/products/product.service.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="75">
+=======
+            <state relative-caret-position="110">
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
               <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -51,8 +67,13 @@
       <file leaf-file-name="product-list.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="600">
               <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+=======
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -63,7 +84,7 @@
       <file leaf-file-name="star.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="374">
               <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
               <folding />
             </state>
@@ -73,7 +94,7 @@
       <file leaf-file-name="star.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="66">
               <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -116,10 +137,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1519" />
-    <option name="y" value="23" />
-    <option name="width" value="1040" />
-    <option name="height" value="1330" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -132,7 +153,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -145,6 +166,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -169,13 +191,20 @@
         </subPane>
       </pane>
     </panes>
+=======
+    <panes />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+=======
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="app.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.component.ts&#10;product-list&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;product-list.compo&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;app.m&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/app.module.ts&#10;product-list.com&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;pr&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.ts&#10;produ&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/products/product-list.component.html&#10;package.json&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/package.json&#10;index.html&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;css&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/app/shared/star.component.css&#10;index&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;index.&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/index.html&#10;sys&#9;FILE&#9;file:///Users/jamesshaw/Documents/projects/samples-angularjs/APM/systemjs.config.js" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -253,14 +282,20 @@
       <workItem from="1477232609089" duration="3475000" />
       <workItem from="1477537120484" duration="3105000" />
       <workItem from="1477709188576" duration="2496000" />
+<<<<<<< HEAD
       <workItem from="1477871504457" duration="1378000" />
       <workItem from="1477880600245" duration="488000" />
       <workItem from="1478046044966" duration="112000" />
       <workItem from="1478046589675" duration="614000" />
+=======
+      <workItem from="1477871504457" duration="1178000" />
+      <workItem from="1478045092497" duration="1151000" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="20325000" />
   </component>
   <component name="ToolWindowManager">
@@ -271,12 +306,28 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26005888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955465" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="20062000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25480768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -305,7 +356,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="915">
+=======
+        <state relative-caret-position="1342">
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <caret line="61" column="89" selection-start-line="61" selection-start-column="89" selection-end-line="61" selection-end-column="89" />
           <folding />
         </state>
@@ -313,7 +368,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/products/product.service.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
+=======
+        <state relative-caret-position="110">
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -333,7 +392,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
+=======
+        <state relative-caret-position="374">
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
           <folding />
         </state>
@@ -341,6 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
@@ -406,6 +470,9 @@
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
+=======
+        <state relative-caret-position="66">
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -506,19 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md" />
     <entry file="file://$PROJECT_DIR$/systemjs.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -599,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/products/product-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
+        <state relative-caret-position="1342">
           <caret line="61" column="89" selection-start-line="61" selection-start-column="89" selection-end-line="61" selection-end-column="89" />
           <folding />
         </state>
@@ -607,15 +662,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="165">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+=======
+        <state relative-caret-position="374">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/products/product.service.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+=======
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -624,26 +690,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/products/product-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="600">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
           <folding />
+=======
+        <state relative-caret-position="110">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/star.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+=======
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+>>>>>>> c3810811d00c0cfee36fed9b857917fc7f3b35bb
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
