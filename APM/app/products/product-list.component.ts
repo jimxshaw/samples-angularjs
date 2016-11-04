@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 import { ProductService } from "./product.service";
-import {IProduct} from "./product";
+import { IProduct } from "./product";
 
 @Component({
     selector: "pm-products",
