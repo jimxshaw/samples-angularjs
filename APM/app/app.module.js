@@ -26,15 +26,15 @@ var AppModule = (function () {
                 router_1.RouterModule.forRoot([
                     { path: "welcome", component: welcome_component_1.WelcomeComponent },
                     { path: "", redirectTo: "welcome", pathMatch: "full" },
-                    { path: "**", redirectTo: "welcome", pathMatch: "full" }
+                    { path: "**", redirectTo: "welcome", pathMatch: "full" } // Wildcard route.
                 ]),
-                product_module_1.ProductModule
+                product_module_1.ProductModule // Feature module.
             ],
             declarations: [
                 app_component_1.AppComponent,
                 welcome_component_1.WelcomeComponent
             ],
-            bootstrap: [app_component_1.AppComponent]
+            bootstrap: [app_component_1.AppComponent] // Component and template shown first after app boot up.
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);
