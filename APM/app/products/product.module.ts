@@ -2,23 +2,19 @@ import { NgModule } from "@angular/core";
 import { ProductListComponent } from "./product-list.component";
 import { ProductDetailComponent } from "./product-detail.component";
 import { ProductFilterPipe } from "./product-filter.pipe";
-import { StarComponent } from "../shared/star.component";
 import { RouterModule } from "@angular/router";
-import { CommonModule } from "@angular/common";
-import { FormsModule } from "@angular/forms";
 import { ProductDetailGuard } from "./product-guard.service";
 import { ProductService } from "./product.service";
+import { SharedModule } from "../shared/shared.module";
 
 @NgModule({
     declarations: [
         ProductListComponent,
         ProductDetailComponent,
-        ProductFilterPipe,
-        StarComponent
+        ProductFilterPipe
     ],
     imports: [
-        FormsModule,
-        CommonModule,
+        SharedModule,
         RouterModule.forChild([
             { path: "products", component: ProductListComponent },
             { path: "product/:id", canActivate: [ ProductDetailGuard ], component: ProductDetailComponent }
