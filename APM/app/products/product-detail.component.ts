@@ -1,4 +1,4 @@
-import {Component, OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { IProduct } from "./product";
 import { ActivatedRoute, Router } from "@angular/router";
 
@@ -22,5 +22,9 @@ export class ProductDetailComponent implements OnInit {
 
     onBack(): void {
         this._router.navigate(["/products"]);
+    }
+
+    onRatingClicked(message: string): void {
+        this.pageTitle = "Product Detail: " + message;
     }
 }

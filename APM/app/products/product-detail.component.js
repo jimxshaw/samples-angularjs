@@ -23,6 +23,9 @@ var ProductDetailComponent = (function () {
     ProductDetailComponent.prototype.onBack = function () {
         this._router.navigate(["/products"]);
     };
+    ProductDetailComponent.prototype.onRatingClicked = function (message) {
+        this.pageTitle = "Product Detail: " + message;
+    };
     ProductDetailComponent = __decorate([
         core_1.Component({
             templateUrl: "app/products/product-detail.component.html"
