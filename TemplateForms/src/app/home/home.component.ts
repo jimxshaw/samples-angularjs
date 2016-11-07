@@ -14,4 +14,15 @@ export class HomeComponent {
   ];
 
   model = new Employee("George", "Washington");
+
+  firstNameToUpperCase(value: string) {
+    if (value.length > 0) {
+      this.model.firstName = value.charAt(0).toLocaleUpperCase() + value.slice(1);
+    }
+    else {
+      this.model.firstName = value;
+    }
+  }
+
+  
 }
