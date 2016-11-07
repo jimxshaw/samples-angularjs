@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {Employee} from "../models/Employee.model";
 
 @Component({
   selector: 'home',
@@ -11,4 +12,6 @@ export class HomeComponent {
     "Spanish",
     "Other"
   ];
+
+  model = new Employee("George", "Washington");
 }
