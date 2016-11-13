@@ -5,9 +5,11 @@
       <label>First Name</label>
       <input #firstName="ngModel" type="text" class="form-control" required name="firstName"
              [(ngModel)]="model.firstName" (ngModelChange)="firstNameToUpperCase($event, true)">
+      <div *ngIf="firstName.invalid && firstName.touched" class="alert alert-danger">
+        First Name is required.
+      </div>
     </div>
 
-    <h4>{{ firstName.dirty }}</h4>
 
     <!--<div class="form-group">-->
       <!--<label>Last Name</label>-->
