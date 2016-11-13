@@ -26,9 +26,11 @@
       <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding />
+            <state relative-caret-position="690">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+              <folding>
+                <marker date="1479065194000" expanded="true" signature="86:609" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,12 +215,12 @@
       <workItem from="1478402018390" duration="2053000" />
       <workItem from="1478473600995" duration="5695000" />
       <workItem from="1478836529063" duration="706000" />
-      <workItem from="1479061383795" duration="2779000" />
+      <workItem from="1479061383795" duration="3302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11233000" />
+    <option name="totallyTimeSpent" value="11756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1519" y="23" width="1040" height="1330" extended-state="0" />
@@ -264,7 +266,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1479065194000" expanded="true" signature="86:609" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -298,7 +302,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1479065194000" expanded="true" signature="86:609" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +405,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="690">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding>
+            <marker date="1479065194000" expanded="true" signature="86:609" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
