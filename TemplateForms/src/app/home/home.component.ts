@@ -13,7 +13,20 @@ export class HomeComponent {
     "Other"
   ];
 
-  model = new Employee("George", "Washington", true, "W2", "English", new Date("October 31, 2016").toLocaleDateString());
+  // model = new Employee("George", "Washington", true, "W2", "English", new Date("October 31, 2016").toLocaleDateString());
+
+  model = new Employee("", "", false, "", "default", "");
+
+  hasPrimaryLanguageError = false;
+
+  validatePrimaryLanguage(event) {
+    if (this.model.primaryLanguage === "default") {
+      this.hasPrimaryLanguageError = true;
+    }
+    else {
+      this.hasPrimaryLanguageError = false;
+    }
+  }
 
   firstNameToUpperCase(value: string, isFirstName: boolean) {
 
