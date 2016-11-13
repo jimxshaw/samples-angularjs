@@ -3,10 +3,10 @@
   <form #form="ngForm" novalidate>
     <div class="form-group" [class.has-error]="firstName.invalid && firstName.touched">
       <label class="control-label">First Name</label>
-      <input #firstName="ngModel" type="text" class="form-control" required name="firstName"
+      <input #firstName="ngModel" pattern="..+" type="text" class="form-control" required name="firstName"
              [(ngModel)]="model.firstName" (ngModelChange)="firstNameToUpperCase($event, true)">
       <div *ngIf="firstName.invalid && firstName.touched" class="alert alert-danger">
-        First Name is required.
+        First Name is required and must have at least 2 characters.
       </div>
     </div>
 
