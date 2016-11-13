@@ -19,8 +19,8 @@ export class HomeComponent {
 
   hasPrimaryLanguageError = false;
 
-  validatePrimaryLanguage(event) {
-    if (this.model.primaryLanguage === "default") {
+  validatePrimaryLanguage(value) {
+    if (value === "default") {
       this.hasPrimaryLanguageError = true;
     }
     else {
