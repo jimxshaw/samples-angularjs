@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
-import {Employee} from "../models/Employee.model";
+import { Component } from '@angular/core';
+import { Employee } from "../models/Employee.model";
+import { FormPoster } from "../services/form-poster.service";
 
 @Component({
   selector: 'home',
@@ -18,6 +19,10 @@ export class HomeComponent {
   model = new Employee("", "", false, "", "default", "");
 
   hasPrimaryLanguageError = false;
+
+  constructor(private formPoster: FormPoster) {
+
+  }
 
   validatePrimaryLanguage(value) {
     if (value === "default") {
