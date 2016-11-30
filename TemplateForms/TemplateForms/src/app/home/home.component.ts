@@ -33,7 +33,8 @@ export class HomeComponent {
       return;
     }
 
-    this.formPoster.postEmployeeForm(this.model);
+    this.formPoster.postEmployeeForm(this.model)
+                      .subscribe(data => console.log("success: ", data), error => console.log("error: ", error));
   }
 
   validatePrimaryLanguage(value) {
