@@ -22,10 +22,22 @@ export class FormPoster {
                     .catch(this.handleError);
   }
 
+  getLanguages(): Observable<any> {
+    return this.http.get("http://localhost:3100/get-languages")
+      .map(this.extractLanguages)
+      .catch(this.handleError);
+  }
+
   private extractData(res: Response) {
     let body = res.json();
 
     return body.fields || {};
+  }
+
+  private extractLanguages(res: Response) {
+    let body = res.json();
+
+    return body.data || {};
   }
 
   private handleError(error: any) {
@@ -33,6 +45,7 @@ export class FormPoster {
 
     return Observable.throw(error.statusText);
   }
+
 
 
 }
