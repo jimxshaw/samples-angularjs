@@ -17,6 +17,9 @@ var server = http.createServer(function (req, res) {
                 languages: [
                     "English",
                     "Spanish",
+                    "French",
+                    "German",
+                    "Chinese",
                     "Other"
                 ]
             }

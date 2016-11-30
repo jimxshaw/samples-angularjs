@@ -9,11 +9,7 @@ import { NgForm } from "@angular/forms";
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
-  languages = [
-    "English",
-    "Spanish",
-    "Other"
-  ];
+  languages = [];
 
   // model = new Employee("George", "Washington", true, "W2", "English", new Date("October 31, 2016").toLocaleDateString());
 
@@ -22,7 +18,8 @@ export class HomeComponent {
   hasPrimaryLanguageError = false;
 
   constructor(private formPoster: FormPoster) {
-
+    this.formPoster.getLanguages()
+                    .subscribe(data => this.languages = data.languages, error => console.log("get error: ", error));
   }
 
   submitForm(form: NgForm) {

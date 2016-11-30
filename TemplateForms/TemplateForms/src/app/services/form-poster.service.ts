@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Http, Response, Headers, RequestOptions, Request } from "@angular/http";
+import { Http, Response, Headers, RequestOptions } from "@angular/http";
 import { Employee } from "../models/Employee.model";
 import "rxjs/Rx";
 import { Observable } from "rxjs/Observable";
@@ -24,8 +24,9 @@ export class FormPoster {
 
   getLanguages(): Observable<any> {
     return this.http.get("http://localhost:3100/get-languages")
-      .map(this.extractLanguages)
-      .catch(this.handleError);
+                    .delay(5000)
+                    .map(this.extractLanguages)
+                    .catch(this.handleError);
   }
 
   private extractData(res: Response) {
