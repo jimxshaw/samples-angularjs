@@ -11,11 +11,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var EventsListComponent = (function () {
     function EventsListComponent() {
+        this.event = {
+            id: 1,
+            name: "Angular Connect",
+            date: "12/21/2044",
+            time: "9:00 am",
+            price: 299.99,
+            imageUrl: "/app/assets/images/angularconnect-shield.png",
+            location: {
+                address: "123 Main Street",
+                city: "Dallas",
+                country: "USA"
+            }
+        };
     }
     EventsListComponent = __decorate([
         core_1.Component({
             selector: "events-list",
-            template: "\n            <div>\n                <h1>Upcoming Angular 2 Events</h1>\n            </div>\n        "
+            templateUrl: "app/events/events-list.component.html"
         }), 
         __metadata('design:paramtypes', [])
     ], EventsListComponent);
