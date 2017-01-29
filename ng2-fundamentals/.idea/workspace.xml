@@ -58,30 +58,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-thumbnail.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="event-thumbnail.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
-                <marker date="1485702958000" expanded="true" signature="156:668" ph="..." />
-                <marker date="1485702958000" expanded="true" signature="358:552" ph="..." />
-                <marker date="1485702958000" expanded="true" signature="570:640" ph="..." />
+                <marker date="1485704192000" expanded="true" signature="156:717" ph="..." />
+                <marker date="1485704192000" expanded="true" signature="382:576" ph="..." />
+                <marker date="1485704192000" expanded="true" signature="619:689" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events-list.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
               <folding>
                 <element signature="e#4280#6602#0" expanded="false" />
-                <marker date="1485703066000" expanded="true" signature="114:408" ph="..." />
-                <marker date="1485703066000" expanded="true" signature="208:393" ph="..." />
-                <marker date="1485703066000" expanded="true" signature="276:374" ph="..." />
+                <marker date="1485704156000" expanded="true" signature="114:408" ph="..." />
+                <marker date="1485704156000" expanded="true" signature="208:393" ph="..." />
+                <marker date="1485704156000" expanded="true" signature="276:374" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/app/events-app.component.ts" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.ts" />
-        <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.ts" />
         <option value="$PROJECT_DIR$/app/events/events-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.ts" />
       </list>
     </option>
   </component>
@@ -336,12 +336,12 @@
       <updated>1485016043257</updated>
       <workItem from="1485016056192" duration="8108000" />
       <workItem from="1485629448627" duration="1967000" />
-      <workItem from="1485701432061" duration="1182000" />
+      <workItem from="1485701432061" duration="2062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11257000" />
+    <option name="totallyTimeSpent" value="12137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1472" y="23" width="1087" height="1330" extended-state="0" />
@@ -433,9 +433,9 @@
         <state relative-caret-position="340">
           <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <marker date="1485702958000" expanded="true" signature="156:668" ph="..." />
-            <marker date="1485702958000" expanded="true" signature="358:552" ph="..." />
-            <marker date="1485702958000" expanded="true" signature="570:640" ph="..." />
+            <marker date="1485704192000" expanded="true" signature="156:717" ph="..." />
+            <marker date="1485704192000" expanded="true" signature="382:576" ph="..." />
+            <marker date="1485704192000" expanded="true" signature="619:689" ph="..." />
           </folding>
         </state>
       </provider>
@@ -446,9 +446,9 @@
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#4280#6602#0" expanded="false" />
-            <marker date="1485703066000" expanded="true" signature="114:408" ph="..." />
-            <marker date="1485703066000" expanded="true" signature="208:393" ph="..." />
-            <marker date="1485703066000" expanded="true" signature="276:374" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="114:408" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="208:393" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="276:374" ph="..." />
           </folding>
         </state>
       </provider>
@@ -569,14 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events-app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -585,27 +577,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/nav/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <marker date="1485702958000" expanded="true" signature="156:668" ph="..." />
-            <marker date="1485702958000" expanded="true" signature="358:552" ph="..." />
-            <marker date="1485702958000" expanded="true" signature="570:640" ph="..." />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
           <folding>
             <element signature="e#4280#6602#0" expanded="false" />
-            <marker date="1485703066000" expanded="true" signature="114:408" ph="..." />
-            <marker date="1485703066000" expanded="true" signature="208:393" ph="..." />
-            <marker date="1485703066000" expanded="true" signature="276:374" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="114:408" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="208:393" ph="..." />
+            <marker date="1485704156000" expanded="true" signature="276:374" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <marker date="1485704192000" expanded="true" signature="156:717" ph="..." />
+            <marker date="1485704192000" expanded="true" signature="382:576" ph="..." />
+            <marker date="1485704192000" expanded="true" signature="619:689" ph="..." />
           </folding>
         </state>
       </provider>
