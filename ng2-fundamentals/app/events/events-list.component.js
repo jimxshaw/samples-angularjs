@@ -79,11 +79,8 @@ var EventsListComponent = (function () {
                 time: '9:00 am',
                 price: 950.00,
                 imageUrl: '/app/assets/images/ng-nl.png',
-                location: {
-                    address: 'The NG-NL Convention Center & Scuba Shop',
-                    city: 'Amsterdam',
-                    country: 'Netherlands'
-                },
+                location: {},
+                onlineUrl: "http://ng-nl.org/",
                 sessions: [
                     {
                         id: 1,
