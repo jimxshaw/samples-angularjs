@@ -61,14 +61,14 @@
       <file leaf-file-name="event-thumbnail.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="95" lean-forward="false" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+            <state relative-caret-position="697">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding>
-                <marker date="1485711623000" expanded="true" signature="156:918" ph="..." />
-                <marker date="1485711623000" expanded="true" signature="156:1040" ph="..." />
-                <marker date="1485711623000" expanded="true" signature="368:612" ph="..." />
-                <marker date="1485711623000" expanded="true" signature="705:899" ph="..." />
-                <marker date="1485711623000" expanded="true" signature="942:1012" ph="..." />
+                <marker date="1485711795000" expanded="true" signature="156:867" ph="..." />
+                <marker date="1485711795000" expanded="true" signature="156:989" ph="..." />
+                <marker date="1485711795000" expanded="true" signature="317:561" ph="..." />
+                <marker date="1485711795000" expanded="true" signature="654:848" ph="..." />
+                <marker date="1485711795000" expanded="true" signature="891:961" ph="..." />
               </folding>
             </state>
           </provider>
@@ -338,12 +338,12 @@
       <updated>1485016043257</updated>
       <workItem from="1485016056192" duration="8108000" />
       <workItem from="1485629448627" duration="1967000" />
-      <workItem from="1485701432061" duration="3478000" />
+      <workItem from="1485701432061" duration="3679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13553000" />
+    <option name="totallyTimeSpent" value="13754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1472" y="23" width="1087" height="1330" extended-state="0" />
@@ -435,11 +435,11 @@
         <state relative-caret-position="340">
           <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <marker date="1485711623000" expanded="true" signature="156:918" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="156:1040" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="368:612" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="705:899" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="942:1012" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="156:867" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="156:989" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="317:561" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="654:848" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="891:961" ph="..." />
           </folding>
         </state>
       </provider>
@@ -604,14 +604,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="95" lean-forward="false" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        <state relative-caret-position="697">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
-            <marker date="1485711623000" expanded="true" signature="156:918" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="156:1040" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="368:612" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="705:899" ph="..." />
-            <marker date="1485711623000" expanded="true" signature="942:1012" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="156:867" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="156:989" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="317:561" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="654:848" ph="..." />
+            <marker date="1485711795000" expanded="true" signature="891:961" ph="..." />
           </folding>
         </state>
       </provider>
