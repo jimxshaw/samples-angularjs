@@ -12,6 +12,21 @@
 
     var MainController = function ($scope, $http) {
 
+        $scope.title = "Github Viewer";
+
+        var onComplete = function(response) {
+            $scope.user = response.data;
+        };
+
+        var onError = function(reason) {
+            console.log("Something went wrong!");
+            $scope.error = reason;
+        };
+
+
+        $http.get("https://api.github.com/users/jimxshaw")
+             .then(onComplete, onError);
+
     };
 
     // For minification purposes, we pass in $ variables into the array so Angular
