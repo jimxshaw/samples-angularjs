@@ -14,18 +14,19 @@
 
         $scope.title = "Github Viewer";
 
-        var onComplete = function(response) {
+        var onComplete = function (response) {
             $scope.user = response.data;
         };
 
-        var onError = function(reason) {
+        var onError = function (reason) {
             console.log("Something went wrong!");
             $scope.error = reason;
         };
 
-
-        $http.get("https://api.github.com/users/jimxshaw")
-             .then(onComplete, onError);
+        $scope.search = function (username) {
+            $http.get("https://api.github.com/users/" + username)
+                .then(onComplete, onError);
+        };
 
     };
 
