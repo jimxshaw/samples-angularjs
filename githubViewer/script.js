@@ -15,7 +15,14 @@
         $scope.title = "Github Viewer";
 
         var onComplete = function (response) {
+
+            // This is essentially "https://api.github.com/users/" + username.
             $scope.user = response.data;
+
+            // After successfully retrieving a user, issue another get request
+            // to get that user's repos.
+            $http.get($scope.user.repos_url)
+                 .then(onReposComplete, onError);
         };
 
         var onError = function (reason) {
@@ -23,9 +30,13 @@
             $scope.error = reason;
         };
 
+        var onReposComplete = function(response) {
+            $scope.repos = response.data;
+        };
+
         $scope.search = function (username) {
             $http.get("https://api.github.com/users/" + username)
-                .then(onComplete, onError);
+                 .then(onComplete, onError);
         };
 
     };
