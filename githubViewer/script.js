@@ -13,6 +13,7 @@
     var MainController = function ($scope, $http) {
 
         $scope.title = "Github Viewer";
+        $scope.repoSortOrder = "+name";
 
         var onComplete = function (response) {
 
