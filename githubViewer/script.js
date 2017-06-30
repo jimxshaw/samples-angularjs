@@ -18,8 +18,9 @@
 
         initiateCountdown();
 
+        var countdownInterval = null;
         var initiateCountdown = function () {
-            $interval(decrementCountdown, 1000, 5);
+            countdownInterval = $interval(decrementCountdown, 1000, $scope.countdown);
         };
 
         var decrementCountdown = function () {
@@ -53,6 +54,11 @@
         $scope.search = function (username) {
             $http.get("https://api.github.com/users/" + username)
                 .then(onComplete, onError);
+
+            if (countdownInterval) {
+                $interval.cancel(countdownInterval);
+                $scope.countdown = null;
+            }
         };
 
     };
