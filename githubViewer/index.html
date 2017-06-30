@@ -10,6 +10,10 @@
 <body>
     <h1>{{title}}</h1>
 
+    <div>
+        Countdown: {{countdown}}
+    </div>
+
     <form name="searchUser" ng-submit="search(username)">
         <input ng-model="search" required type="search" placeholder="Search for a username" />
         <input type="submit" value="Search" />

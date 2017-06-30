@@ -10,10 +10,25 @@
 
     ]);
 
-    var MainController = function ($scope, $http) {
+    var MainController = function ($scope, $http, $interval) {
 
         $scope.title = "Github Viewer";
         $scope.repoSortOrder = "+name";
+        $scope.countdown = 5;
+
+        initiateCountdown();
+
+        var initiateCountdown = function () {
+            $interval(decrementCountdown, 1000, 5);
+        };
+
+        var decrementCountdown = function () {
+            $scope.countdown -= 1;
+
+            if ($scope.countdown < 1) {
+                $scope.search($scope.username);
+            }
+        }
 
         var onComplete = function (response) {
 
@@ -23,7 +38,7 @@
             // After successfully retrieving a user, issue another get request
             // to get that user's repos.
             $http.get($scope.user.repos_url)
-                 .then(onReposComplete, onError);
+                .then(onReposComplete, onError);
         };
 
         var onError = function (reason) {
@@ -31,13 +46,13 @@
             $scope.error = reason;
         };
 
-        var onReposComplete = function(response) {
+        var onReposComplete = function (response) {
             $scope.repos = response.data;
         };
 
         $scope.search = function (username) {
             $http.get("https://api.github.com/users/" + username)
-                 .then(onComplete, onError);
+                .then(onComplete, onError);
         };
 
     };
@@ -45,7 +60,7 @@
     // For minification purposes, we pass in $ variables into the array so Angular
     // will be aware of them when it replaces them with minifided version. The last 
     // item in the array is the registered controller.
-    app.controller("MainController", ["$scope", "$http", MainController]);
+    app.controller("MainController", ["$scope", "$http", "$interval", MainController]);
 
 
 })();
